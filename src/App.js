@@ -55,15 +55,13 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <iframe style={{ width: "100%", height: 400 }} src="https://docs.nestjs.com/exception-filters" frameBorder="0"></iframe>
-
+        <iframe style={{ width: "100%", height: 400 }} src="http://localhost:3000/goldenvideo?accessKey=12345&class_id=1&dance_id=53882729" frameBorder="0"></iframe>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <iframe allow="camera;microphone" style={{ width: "100%", height: 400 }} src="https://dance-motion.web.app/" frameBorder="0"></iframe>
+        <iframe allow="camera;microphone" style={{ width: "100%", height: 400 }} src="http://localhost:3000?accessKey=12345678&dance_id=765504&student_id=1234&class_id=1234" frameBorder="0"></iframe>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <iframe style={{ width: "100%", height: 400 }} src="https://dance-motion.web.app/analysis/123" frameBorder="0"></iframe>
-
+        <iframe style={{ width: "100%", height: 400 }} src="http://localhost:3000/analysis/619f6634c0f49db270368a5f?accessKey=12345" frameBorder="0"></iframe>
       </TabPanel>
     </Box>
   );
